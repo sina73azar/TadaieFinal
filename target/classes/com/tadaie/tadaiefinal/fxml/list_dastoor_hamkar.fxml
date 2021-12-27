@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="475.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tadaie.tadaiefinal.panes.ListDastoorHamkar">
+   <children>
+      <TableView fx:id="tableDastoorKarHamkar" layoutX="-1.0" prefHeight="475.0" prefWidth="790.0">
+         <columns>
+            <TableColumn fx:id="idCol" prefWidth="75.0" text="کد سفارش" />
+            <TableColumn fx:id="hamkarNameCol" prefWidth="144.0" text="نام همکار مربوطه" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

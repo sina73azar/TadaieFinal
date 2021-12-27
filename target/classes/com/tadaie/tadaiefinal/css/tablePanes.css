@@ -1,0 +1,49 @@
+
+
+.table-view{
+    -fx-background-color:transparent;
+    -fx-border-color:#c4c4c4;
+
+}
+
+.table-view .column-header {
+       -fx-background-radius: 4;
+       -fx-effect: dropshadow( gaussian , rgba(200,200,200,200) , 2,0,0,1 );
+       -fx-opacity: 0.8;
+       -fx-border-width: 2.0;
+       -fx-background-insets: 0,0 0 4 0, 0 0 2 0, 0 0 2 0;
+
+}
+.table-view .column-header .label{
+     -fx-content-display:left;
+     -fx-alignment:center-left;
+     -fx-padding:0 5 0 5;
+}
+.table-view .column-header-background{
+
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+
+}
+.table-view .column-header-background .filler {
+
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+.table-view .label{
+    -fx-opacity: 0.8;
+    -fx-font-family:'B Yekan';
+}
+.table-view .table-cell{
+    -fx-text-fill: black;
+    -fx-opacity: 0.8;
+}
+HBox{
+    -fx-border-color:#c4c4c4;
+    -fx-border-style: solid none none none;
+    -fx-border-width:0.5;
+}
+.label{
+     -fx-font-family:'B Yekan';
+}

@@ -1,0 +1,53 @@
+
+@font-face {
+
+    src: url('../fonts/BYekan.ttf');
+}
+
+
+.vboxMenu{
+    -fx-background-color: #EAEAEA;
+}
+.menu-button{
+    -fx-background-radius: 4;
+    -fx-effect: dropshadow( gaussian , rgba(200,200,200,200) , 2,0,0,1 );
+    -fx-opacity: 0.8;
+    -fx-border-width: 2.0;
+    -fx-background-insets: 0,0 0 4 0, 0 0 2 0, 0 0 2 0;
+
+}
+
+.menu-button .label {
+    -fx-font-family:'B Yekan';
+    -fx-text-fill: #575757;
+    -fx-font-weight: bold;
+
+}
+.menu-item {
+    -fx-radius: 10;
+    -fx-padding: 5 10 5 10;
+    -fx-background-radius: 2;
+    -fx-opacity: 0.8;
+}
+
+.menu-item .label{
+     -fx-text-fill: #575757;
+     -fx-font-family:'B Yekan';
+}
+.context-menu {
+
+    -fx-border-color: #EAEAEA;
+    -fx-background-radius: 0.0 6.0 6.0 6.0, 0.0 5.0 5.0 5.0, 0.0 4.0 4.0 4.0;
+
+
+    -fx-opacity: 0.8;
+    -fx-border-width: 2.0;
+    -fx-effect: dropshadow( gaussian , rgba(200,200,200,200) , 2,0,0,1 );
+}
+.mainLabel{
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+      -fx-opacity: 0.8;
+      -fx-font-size:20px;
+      -fx-font-family:'B Yekan';
+}

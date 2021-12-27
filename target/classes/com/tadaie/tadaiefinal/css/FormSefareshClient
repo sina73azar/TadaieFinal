@@ -1,0 +1,71 @@
+.root_new_Sefaresh_Client{
+    -fx-font-family:'B Yekan';
+}
+Label{
+
+    -fx-opacity:0.6;
+
+}
+StackPane{
+}
+RadioButton{
+    -fx-opacity:0.6;
+}
+
+.colorField{
+    -fx-opacity:0.8;
+}
+.multiListField {
+    -fx-min-height:100;
+    -fx-max-height:130;
+}
+.allFields{
+    -fx-border-color: #EAEAEA #EAEAEA #EAEAEA #EAEAEA;
+    -fx-padding:10 10 10 10;
+}
+
+
+.allFields .label{
+
+    -fx-padding:0 0 0 40;
+}
+.allFields .label:hover{
+    -fx-text-fill:#2BA7D1;
+}
+.designLabels .label{
+
+}
+.graphicText .label{
+    -fx-padding:0 0 0 30;
+}
+.listDastgah{
+    -fx-alignment:TOP_CENTER;
+}
+.firstRowFields{
+
+
+}
+.headLabel .label{
+    -fx-opacity:0.9;
+    -fx-font-family:'B Yekan' '35';
+}
+.detailsFields{
+    -fx-min-height:120;
+}
+.dimensions{
+   -fx-border-color: transparent transparent transparent transparent;
+   -fx-padding:0 10 0 10;
+}
+.checkBoxField{
+   -fx-opacity:0.8;
+}
+.dimensions .label{
+    -fx-padding:0 0 0 0;
+}
+.dimensions .text-field{
+    -fx-min-width:70;
+
+}
+.calendarHbox {
+    -fx-font-family:'B Yekan';
+}

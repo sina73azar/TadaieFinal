@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="icu4j_3_2_calendar">
+    <CLASSES>
+      <root url="jar://S:/tadaie/libraries/PersianCalendar_2_1/lib/icu4j_3_2_calendar.jar!/" />
+      <root url="jar://S:/tadaie/libraries/PersianCalendar_2_1/lib/persiancalendar.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

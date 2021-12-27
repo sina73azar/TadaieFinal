@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane minHeight="500.0" minWidth="795.0" stylesheets="@../css/tablePanes.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tadaie.tadaiefinal.panes.ClientListPane">
+   <children>
+      <TableView fx:id="tableClients" minHeight="460.0" minWidth="799.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+        <columns>
+            <TableColumn fx:id="idCol" minWidth="25.0" prefWidth="64.0" text="کد ثبت" />
+          <TableColumn fx:id="nameCol" minWidth="100.0" prefWidth="138.0" text="نام" />
+          <TableColumn fx:id="phoneCol" minWidth="100.0" prefWidth="95.0" text="تلفن" />
+            <TableColumn fx:id="companyNameCol" minWidth="100.0" prefWidth="89.0" text="نام شرکت" />
+            <TableColumn fx:id="addressCol" minWidth="100.0" prefWidth="164.0" text="آدرس" />
+            <TableColumn fx:id="detailsCol" minWidth="200.0" prefWidth="-1.0" text="توضیحات" />
+        </columns>
+      </TableView>
+      <HBox layoutX="320.0" layoutY="452.0" maxHeight="60.0" minHeight="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="45.0" AnchorPane.bottomAnchor="-0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton fx:id="deleteClient" buttonType="RAISED" contentDisplay="CENTER" text=" " textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="50.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Users/sina/AndroidStudioProjects/TadaieFinal/src/main/resources/com/tadaie/tadaiefinal/drawables/icons8-delete-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <HBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+               </HBox.margin>
+            </JFXButton>
+            <Label fx:id="lblMesage" alignment="CENTER" minHeight="35.0" minWidth="300.0" textAlignment="CENTER">
+               <padding>
+                  <Insets top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets top="3.0" />
+               </HBox.margin>
+            </Label>
+         </children></HBox>
+   </children>
+</AnchorPane>

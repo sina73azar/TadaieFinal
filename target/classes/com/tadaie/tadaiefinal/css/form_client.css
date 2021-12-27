@@ -1,0 +1,60 @@
+Label{
+
+
+      -fx-margin:0 0 0 0;
+      -fx-padding:0 0 0 0;
+      -fx-opacity: 0.6;
+      -fx-font-family:'B Yekan';
+}
+TextField{
+-fx-opacity: 0.8;
+}
+.phoneField .label{
+  -fx-margin:0 0 0 0;
+      -fx-padding:0 0 0 0;
+
+}
+
+.detailsField .text-field{
+
+      -fx-background-color:red;
+}
+AnchorPane{
+    -fx-background-color:red;
+}
+FormRenderer{
+    -fx-background-color:#F4F4F4;
+    -fx-min-height:495;
+    -fx-min-width:790;
+    -fx-max-height:2000;
+    -fx-max-height:2000;
+}
+button{
+
+}
+#submit{
+    -fx-background-radius: 4;
+    -fx-effect: dropshadow( gaussian , rgba(200,200,200,200) , 2,0,0,1 );
+    -fx-opacity: 0.8;
+    -fx-border-width: 2.0;
+    -fx-background-insets: 0,0 0 4 0, 0 0 2 0, 0 0 2 0;
+    -fx-font-family:'B Yekan';
+}
+#reset{
+    -fx-background-radius: 4;
+
+    -fx-effect: dropshadow( gaussian , rgba(200,200,200,200) , 2,0,0,1 );
+    -fx-opacity: 0.5;
+    -fx-border-width: 0;
+    -fx-background-insets: 0,0 0 4 0, 0 0 2 0, 0 0 2 0;
+    -fx-font-family:'B Yekan';
+}
+TextField{
+          -fx-font-family:'B Yekan';
+
+
+}
+#label_message{
+          -fx-padding:20 10 10 10;
+
+}

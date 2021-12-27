@@ -1,0 +1,31 @@
+
+
+.name-col-class.table-cell {
+
+}
+.mAddSefareshAnchor{
+
+
+}
+.mtabPane{
+
+}
+.mtabPane>.tab-header-area>.tab-header-background {
+    -fx-background-color:#52a3fa;
+}
+.mtabPane>.tab-header-area> .headers-region > .tab:selected{
+    -fx-background-color:#52a3fa;
+}
+.mtabsAnchor{
+    -fx-background-color:#c0dffa;
+}
+#btn1tabpane{
+
+    -fx-padding:2 10 2 10;
+}
+.mComboHamkar{
+    -fx-background-color:#52a3fa;
+}
+#zinkPane{
+
+}
